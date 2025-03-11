@@ -66,7 +66,9 @@ class PostViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         sendCommentButton.setOnClickListener {
             val commentText = commentInput.text.toString()
             if (commentText.isNotEmpty()) {
+                currentComments++
                 commentInput.text.clear()
+                commentCount.text = itemView.context.getString(R.string.comments_count, currentComments)
             }
         }
     }
