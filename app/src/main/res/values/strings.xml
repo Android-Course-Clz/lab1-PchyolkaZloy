@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">InstagramProfile</string>
+    <string name="profile_image_description">Profile Image</string>
+    <string name="profile_name">John Pork</string>
+    <string name="profile_username">@john_pork_do_not_decline</string>
+    <string name="posts_count">3</string>
+    <string name="posts_title">Posts</string>
+    <string name="profile_bio">This bio can\'t handle me. I\'m too many characters.</string>
+    <string name="followers_count">1337</string>
+    <string name="followers_title">Followers</string>
+    <string name="following_count">228</string>
+    <string name="following_title">Following</string>
+    <string name="follow_button">Follow</string>
+    <string name="unfollow_button">Unfollow</string>
+    <string name="message_button">Message</string>
+    <string name="post_image_description">Post Image</string>
+    <string name="likes_count">%1$d likes</string>
+    <string name="comments_count">%1$d comments</string>
+    <string name="like_button">Like</string>
+    <string name="comment_button">Comment</string>
+    <string name="send_comment_button">Send</string>
+    <string name="comment_hint">Add a comment…</string>
+</resources>
