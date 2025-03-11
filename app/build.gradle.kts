@@ -56,7 +56,8 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
+    implementation(libs.androidx.appcompat)
     implementation(libs.androidx.recyclerview)
-    implementation(libs.glide) // или Coil/Fresco
+    implementation(libs.glide)
     implementation(libs.androidx.constraintlayout)
 }
